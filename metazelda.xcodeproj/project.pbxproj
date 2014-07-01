@@ -19,6 +19,10 @@
 		BC6B3EAF1962EF1800CC381B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B3E971962EF1800CC381B /* UIKit.framework */; };
 		BC6B3EB71962EF1800CC381B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC6B3EB51962EF1800CC381B /* InfoPlist.strings */; };
 		BC6B3EB91962EF1800CC381B /* metazeldaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3EB81962EF1800CC381B /* metazeldaTests.m */; };
+		BC6B3EC51962EF9600CC381B /* Bounds.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3EC41962EF9600CC381B /* Bounds.m */; };
+		BC6B3EC81962F0FC00CC381B /* Condition.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3EC71962F0FC00CC381B /* Condition.m */; };
+		BC6B3ECB1962F14F00CC381B /* Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3ECA1962F14F00CC381B /* Symbol.m */; };
+		BC6B3ECE1962F69F00CC381B /* Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3ECD1962F69F00CC381B /* Switch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		BC6B3EB41962EF1800CC381B /* metazeldaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "metazeldaTests-Info.plist"; sourceTree = "<group>"; };
 		BC6B3EB61962EF1800CC381B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC6B3EB81962EF1800CC381B /* metazeldaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = metazeldaTests.m; sourceTree = "<group>"; };
+		BC6B3EC31962EF9600CC381B /* Bounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bounds.h; sourceTree = "<group>"; };
+		BC6B3EC41962EF9600CC381B /* Bounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bounds.m; sourceTree = "<group>"; };
+		BC6B3EC61962F0FC00CC381B /* Condition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Condition.h; sourceTree = "<group>"; };
+		BC6B3EC71962F0FC00CC381B /* Condition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Condition.m; sourceTree = "<group>"; };
+		BC6B3EC91962F14F00CC381B /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		BC6B3ECA1962F14F00CC381B /* Symbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Symbol.m; sourceTree = "<group>"; };
+		BC6B3ECC1962F69F00CC381B /* Switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switch.h; sourceTree = "<group>"; };
+		BC6B3ECD1962F69F00CC381B /* Switch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Switch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		BC6B3E871962EF1800CC381B = {
 			isa = PBXGroup;
 			children = (
+				BC6B3EC21962EF7E00CC381B /* Source */,
 				BC6B3E991962EF1800CC381B /* metazelda */,
 				BC6B3EB21962EF1800CC381B /* metazeldaTests */,
 				BC6B3E921962EF1800CC381B /* Frameworks */,
@@ -144,6 +157,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BC6B3EC21962EF7E00CC381B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B3EC31962EF9600CC381B /* Bounds.h */,
+				BC6B3EC41962EF9600CC381B /* Bounds.m */,
+				BC6B3EC61962F0FC00CC381B /* Condition.h */,
+				BC6B3EC71962F0FC00CC381B /* Condition.m */,
+				BC6B3ECC1962F69F00CC381B /* Switch.h */,
+				BC6B3ECD1962F69F00CC381B /* Switch.m */,
+				BC6B3EC91962F14F00CC381B /* Symbol.h */,
+				BC6B3ECA1962F14F00CC381B /* Symbol.m */,
+			);
+			name = Source;
+			path = metazelda/Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +221,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Delta Dog";
 				TargetAttributes = {
+					BC6B3E8F1962EF1800CC381B = {
+						DevelopmentTeam = REGGDNJ825;
+					};
 					BC6B3EAA1962EF1800CC381B = {
 						TestTargetID = BC6B3E8F1962EF1800CC381B;
 					};
@@ -241,7 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6B3EA01962EF1800CC381B /* main.m in Sources */,
+				BC6B3ECB1962F14F00CC381B /* Symbol.m in Sources */,
+				BC6B3EC81962F0FC00CC381B /* Condition.m in Sources */,
 				BC6B3EA41962EF1800CC381B /* DOGAppDelegate.m in Sources */,
+				BC6B3EC51962EF9600CC381B /* Bounds.m in Sources */,
+				BC6B3ECE1962F69F00CC381B /* Switch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "metazelda/metazelda-Prefix.pch";
 				INFOPLIST_FILE = "metazelda/metazelda-Info.plist";
@@ -373,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "metazelda/metazelda-Prefix.pch";
 				INFOPLIST_FILE = "metazelda/metazelda-Info.plist";
