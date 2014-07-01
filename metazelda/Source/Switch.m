@@ -8,12 +8,6 @@
 
 #import "Switch.h"
 
-@interface Switch ()
-
-@property (nonatomic, readwrite) SwitchState state;
-
-@end
-
 @implementation Switch
 
 + (instancetype)switchFor:(SwitchState)state {
@@ -34,6 +28,12 @@
       break;
   }
   return self.state;
+}
+
+- (id)copy {
+  Switch *other = [[[self class] alloc] init];
+  other.state = self.state;
+  return other;
 }
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0706F219630D9A0039E670 /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0706F119630D9A0039E670 /* Edge.m */; };
 		BC6B3E941962EF1800CC381B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B3E931962EF1800CC381B /* Foundation.framework */; };
 		BC6B3E961962EF1800CC381B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B3E951962EF1800CC381B /* CoreGraphics.framework */; };
 		BC6B3E981962EF1800CC381B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B3E971962EF1800CC381B /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC0706F019630D9A0039E670 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		BC0706F119630D9A0039E670 /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
 		BC6B3E901962EF1800CC381B /* metazelda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metazelda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6B3E931962EF1800CC381B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC6B3E951962EF1800CC381B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -164,6 +167,8 @@
 				BC6B3EC41962EF9600CC381B /* Bounds.m */,
 				BC6B3EC61962F0FC00CC381B /* Condition.h */,
 				BC6B3EC71962F0FC00CC381B /* Condition.m */,
+				BC0706F019630D9A0039E670 /* Edge.h */,
+				BC0706F119630D9A0039E670 /* Edge.m */,
 				BC6B3ECC1962F69F00CC381B /* Switch.h */,
 				BC6B3ECD1962F69F00CC381B /* Switch.m */,
 				BC6B3EC91962F14F00CC381B /* Symbol.h */,
@@ -275,6 +280,7 @@
 				BC6B3EA01962EF1800CC381B /* main.m in Sources */,
 				BC6B3ECB1962F14F00CC381B /* Symbol.m in Sources */,
 				BC6B3EC81962F0FC00CC381B /* Condition.m in Sources */,
+				BC0706F219630D9A0039E670 /* Edge.m in Sources */,
 				BC6B3EA41962EF1800CC381B /* DOGAppDelegate.m in Sources */,
 				BC6B3EC51962EF9600CC381B /* Bounds.m in Sources */,
 				BC6B3ECE1962F69F00CC381B /* Switch.m in Sources */,
@@ -478,6 +484,7 @@
 				BC6B3EBE1962EF1800CC381B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC6B3EBF1962EF1800CC381B /* Build configuration list for PBXNativeTarget "metazeldaTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +493,7 @@
 				BC6B3EC11962EF1800CC381B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

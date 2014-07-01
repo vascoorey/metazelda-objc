@@ -20,7 +20,7 @@
 @implementation Symbol
 
 + (instancetype)symbolFor:(int)symbolValue {
-  Symbol *s = [[self alloc] init];
+  Symbol *s = [[self alloc] initWithValue:symbolValue];
   return s;
 }
 
@@ -60,6 +60,11 @@
   _value = value;
   
   return self;
+}
+
+- (id)copy {
+  Symbol *other = [[self class] symbolFor:self.value];
+  return other;
 }
 
 - (BOOL)isStart {

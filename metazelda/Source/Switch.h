@@ -18,8 +18,8 @@ typedef NS_ENUM(int, SwitchState) {
 
 @interface Switch : NSObject
 
-@property (nonatomic, readonly) SwitchState state;
-@property (nonatomic, readonly) Symbol *symbol;
+@property (nonatomic) SwitchState state;
+@property (nonatomic, strong) Symbol *symbol;
 
 + (instancetype)switchFor:(SwitchState)state;
 
