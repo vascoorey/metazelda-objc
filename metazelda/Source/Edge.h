@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+@class Symbol;
+
 @interface Edge : NSObject
+
++ (instancetype)edge;
++ (instancetype)edgeWithSymbol:(Symbol *)symbol;
+
+@property (nonatomic, readonly) BOOL hasSymbol;
+@property (nonatomic, strong) Symbol *symbol;
+
+- (BOOL)isEqualToEdge:(Edge *)other;
 
 @end

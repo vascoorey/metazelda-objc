@@ -24,6 +24,9 @@
 		BC6B3EC81962F0FC00CC381B /* Condition.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3EC71962F0FC00CC381B /* Condition.m */; };
 		BC6B3ECB1962F14F00CC381B /* Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3ECA1962F14F00CC381B /* Symbol.m */; };
 		BC6B3ECE1962F69F00CC381B /* Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3ECD1962F69F00CC381B /* Switch.m */; };
+		BC9CC6E11964482D00736CA5 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CC6E01964482D00736CA5 /* Room.m */; };
+		BCE3EF2F196576470042E9F8 /* Coords.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE3EF2E196576470042E9F8 /* Coords.m */; };
+		BCE3EF32196577370042E9F8 /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE3EF31196577370042E9F8 /* Direction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,12 @@
 		BC6B3ECA1962F14F00CC381B /* Symbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Symbol.m; sourceTree = "<group>"; };
 		BC6B3ECC1962F69F00CC381B /* Switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switch.h; sourceTree = "<group>"; };
 		BC6B3ECD1962F69F00CC381B /* Switch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Switch.m; sourceTree = "<group>"; };
+		BC9CC6DF1964482D00736CA5 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		BC9CC6E01964482D00736CA5 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		BCE3EF2D196576470042E9F8 /* Coords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coords.h; sourceTree = "<group>"; };
+		BCE3EF2E196576470042E9F8 /* Coords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coords.m; sourceTree = "<group>"; };
+		BCE3EF30196577370042E9F8 /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		BCE3EF31196577370042E9F8 /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +172,7 @@
 		BC6B3EC21962EF7E00CC381B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				BCE3EF2C196576330042E9F8 /* Utils */,
 				BC6B3EC31962EF9600CC381B /* Bounds.h */,
 				BC6B3EC41962EF9600CC381B /* Bounds.m */,
 				BC6B3EC61962F0FC00CC381B /* Condition.h */,
@@ -173,9 +183,22 @@
 				BC6B3ECD1962F69F00CC381B /* Switch.m */,
 				BC6B3EC91962F14F00CC381B /* Symbol.h */,
 				BC6B3ECA1962F14F00CC381B /* Symbol.m */,
+				BC9CC6DF1964482D00736CA5 /* Room.h */,
+				BC9CC6E01964482D00736CA5 /* Room.m */,
 			);
 			name = Source;
 			path = metazelda/Source;
+			sourceTree = "<group>";
+		};
+		BCE3EF2C196576330042E9F8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BCE3EF2D196576470042E9F8 /* Coords.h */,
+				BCE3EF2E196576470042E9F8 /* Coords.m */,
+				BCE3EF30196577370042E9F8 /* Direction.h */,
+				BCE3EF31196577370042E9F8 /* Direction.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +302,13 @@
 			files = (
 				BC6B3EA01962EF1800CC381B /* main.m in Sources */,
 				BC6B3ECB1962F14F00CC381B /* Symbol.m in Sources */,
+				BCE3EF2F196576470042E9F8 /* Coords.m in Sources */,
+				BCE3EF32196577370042E9F8 /* Direction.m in Sources */,
 				BC6B3EC81962F0FC00CC381B /* Condition.m in Sources */,
 				BC0706F219630D9A0039E670 /* Edge.m in Sources */,
 				BC6B3EA41962EF1800CC381B /* DOGAppDelegate.m in Sources */,
 				BC6B3EC51962EF9600CC381B /* Bounds.m in Sources */,
+				BC9CC6E11964482D00736CA5 /* Room.m in Sources */,
 				BC6B3ECE1962F69F00CC381B /* Switch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
