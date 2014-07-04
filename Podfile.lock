@@ -1,0 +1,10 @@
+PODS:
+  - BinarySearchTree (0.0.1)
+
+DEPENDENCIES:
+  - BinarySearchTree
+
+SPEC CHECKSUMS:
+  BinarySearchTree: a0e4210bec49ce048f360d1871399487efed2c3c
+
+COCOAPODS: 0.33.1
