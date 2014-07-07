@@ -6,19 +6,15 @@
 //  Copyright (c) 2014 Delta Dog. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 #import "Switch.h"
 
 @class Symbol;
 
-@interface Condition : NSObject {
-  @protected
-  int _keyLevel;
-  Switch *_levelSwitch;
-}
+@interface Condition : NSObject
 
-@property (nonatomic, readonly) int keyLevel;
-@property (nonatomic, readonly) Switch *levelSwitch;
+@property (nonatomic) int keyLevel;
+@property (nonatomic) Switch *levelSwitch;
 
 + (instancetype)condition;
 + (instancetype)conditionForSymbol:(Symbol *)symbol;

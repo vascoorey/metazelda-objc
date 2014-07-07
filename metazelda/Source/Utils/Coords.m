@@ -29,6 +29,24 @@
   return [self add:d.x dy:d.y];
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+  Coords *c = [[[self class] allocWithZone:zone] init];
+  c.x = self.x;
+  c.y = self.y;
+  return c;
+}
+
+- (id)copy {
+  Coords *c = [[[self class] alloc] init];
+  c.x = self.x;
+  c.y = self.y;
+  return c;
+}
+
+- (NSUInteger)hash {
+  return [[NSString stringWithFormat:@"%d,%d", self.x, self.y] hash];
+}
+
 - (instancetype)add:(int)dx dy:(int)dy {
   Coords *new = [[[self class] alloc] init];
   new.x = self.x + dx;

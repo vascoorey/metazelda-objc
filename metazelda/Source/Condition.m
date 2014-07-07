@@ -13,19 +13,19 @@
 
 + (instancetype)condition {
   Condition *c = [[self alloc] init];
-  c->_levelSwitch = [Switch switchFor:SwitchStateEither];
+  c.levelSwitch = [Switch switchFor:SwitchStateEither];
   return c;
 }
 
 + (instancetype)conditionForSymbol:(Symbol *)symbol {
   Condition *c = [[self alloc] init];
   if(symbol.value == SymbolValueSwitchOff) {
-    c->_levelSwitch = [Switch switchFor:SwitchStateOff];
+    c.levelSwitch = [Switch switchFor:SwitchStateOff];
   } else if(symbol.value == SymbolValueSwitchOn) {
-    c->_levelSwitch = [Switch switchFor:SwitchStateOn];
+    c.levelSwitch = [Switch switchFor:SwitchStateOn];
   } else {
-    c->_keyLevel = symbol.value + 1;
-    c->_levelSwitch = [Switch switchFor:SwitchStateEither];
+    c.keyLevel = symbol.value + 1;
+    c.levelSwitch = [Switch switchFor:SwitchStateEither];
   }
   return c;
 }
@@ -36,7 +36,7 @@
 
 + (instancetype)conditionForSwitchState:(SwitchState)state {
   Condition *c = [[self alloc] init];
-  c->_levelSwitch = [Switch switchFor:state];
+  c.levelSwitch = [Switch switchFor:state];
   return c;
 }
 
@@ -50,13 +50,13 @@
 
 - (id)copy {
   Condition *c = [[[self class] alloc] init];
-  c->_keyLevel = _keyLevel;
-  c->_levelSwitch = [_levelSwitch copy];
+  c.keyLevel = self.keyLevel;
+  c.levelSwitch = [self.levelSwitch copy];
   return c;
 }
 
 - (BOOL)isEqualToCondition:(Condition *)other {
-  return other->_keyLevel == self->_keyLevel && other->_levelSwitch.state == self->_levelSwitch.state;
+  return other.keyLevel == self.keyLevel && other.levelSwitch.state == self.levelSwitch.state;
 }
 
 - (BOOL)isEqual:(id)object {
@@ -68,21 +68,21 @@
 }
 
 - (void)addCondition:(Condition *)other {
-  if(_levelSwitch.state == SwitchStateEither) {
-    _levelSwitch.state = other->_levelSwitch.state;
+  if(self.levelSwitch.state == SwitchStateEither) {
+    self.levelSwitch.state = other.levelSwitch.state;
   } else {
-    NSAssert(_levelSwitch.state == other->_levelSwitch.state, @"States should be equal");
+    NSAssert(self.levelSwitch.state == other.levelSwitch.state, @"States should be equal");
   }
-  _keyLevel = MAX(_keyLevel, other->_keyLevel);
+  self.keyLevel = self.keyLevel >= other.keyLevel ? self.keyLevel : other.keyLevel;
 }
 
 - (void)addSymbol:(Symbol *)symbol {
   if(symbol.value == SymbolValueSwitchOff) {
-    _levelSwitch.state = SwitchStateOff;
+    self.levelSwitch.state = SwitchStateOff;
   } else if(symbol.value == SymbolValueSwitchOn) {
-    _levelSwitch.state = SwitchStateOn;
+    self.levelSwitch.state = SwitchStateOn;
   } else {
-    _keyLevel = MAX(_keyLevel, symbol.value + 1);
+    self.keyLevel = self.keyLevel >= (symbol.value + 1) ? self.keyLevel : symbol.value + 1;
   }
 }
 
@@ -101,7 +101,7 @@
 }
 
 - (BOOL)impliesCondition:(Condition *)condition {
-  return _keyLevel >= condition->_keyLevel && (_levelSwitch.state == condition->_levelSwitch.state || condition->_levelSwitch.state == SwitchStateEither);
+  return self.keyLevel >= condition.keyLevel && (self.levelSwitch.state == condition.levelSwitch.state || condition.levelSwitch.state == SwitchStateEither);
 }
 
 - (BOOL)impliesSymbol:(Symbol *)symbol {
@@ -111,15 +111,15 @@
 - (Symbol *)singleSymbolDifference:(Condition *)condition {
   if([self isEqualToCondition:condition]) return nil;
   
-  if(_levelSwitch.state == condition->_levelSwitch.state) {
-    return [Symbol symbolFor:MAX(_keyLevel, condition->_keyLevel) - 1];
+  if(self.levelSwitch.state == condition.levelSwitch.state) {
+    return [Symbol symbolFor:(self.keyLevel >= condition.keyLevel ? self.keyLevel - 1 : condition.keyLevel - 1)];
   } else {
-    if(_keyLevel != condition->_keyLevel) return nil;
+    if(self.keyLevel != condition.keyLevel) return nil;
     
-    NSAssert(_levelSwitch.state != condition->_levelSwitch.state, @"Switch states should be different");
-    if(_levelSwitch.state != SwitchStateEither && condition->_levelSwitch.state != SwitchStateEither) return nil;
+    NSAssert(self.levelSwitch.state != condition.levelSwitch.state, @"Switch states should be different");
+    if(self.levelSwitch.state != SwitchStateEither && condition.levelSwitch.state != SwitchStateEither) return nil;
     
-    SwitchState newState = _levelSwitch.state != SwitchStateEither ?: condition->_levelSwitch.state;
+    SwitchState newState = self.levelSwitch.state != SwitchStateEither ? self.levelSwitch.state : condition.levelSwitch.state;
     
     return [Symbol symbolFor:newState == SwitchStateOn ? SymbolValueSwitchOn : SymbolValueSwitchOff];
   }
@@ -127,14 +127,14 @@
 
 - (NSString *)description {
   NSString *result = @"";
-  if(_keyLevel != 0) {
-    result = [result stringByAppendingString:[Symbol symbolFor:_keyLevel - 1].description];
+  if(self.keyLevel != 0) {
+    result = [result stringByAppendingString:[Symbol symbolFor:self.keyLevel - 1].description];
   }
-  if(_levelSwitch.state != SwitchStateEither) {
+  if(self.levelSwitch.state != SwitchStateEither) {
     if(![result isEqualToString:@""]) {
       result = [result stringByAppendingString:@","];
     }
-    result = [result stringByAppendingString:_levelSwitch.symbol.description];
+    result = [result stringByAppendingString:self.levelSwitch.symbol.description];
   }
   return result;
 }

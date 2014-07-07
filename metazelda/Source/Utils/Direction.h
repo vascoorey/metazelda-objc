@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Delta Dog. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 typedef NS_ENUM(int, DirectionValue) {
   DirectionValueNorth = 0,

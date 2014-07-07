@@ -46,9 +46,6 @@
       d.x = -1;
       d.y = 0;
       break;
-    default:
-      [[NSException exceptionWithName:NSInvalidArgumentException reason:@"Invalid direction" userInfo:nil] raise];
-      break;
   }
   return d;
 }
@@ -57,19 +54,12 @@
   switch(other.code) {
     case DirectionValueNorth:
       return [self directionFromValue:DirectionValueSouth];
-      break;
     case DirectionValueEast:
       return [self directionFromValue:DirectionValueWest];
-      break;
     case DirectionValueSouth:
       return [self directionFromValue:DirectionValueNorth];
-      break;
     case DirectionValueWest:
       return [self directionFromValue:DirectionValueEast];
-      break;
-    default:
-      [[NSException exceptionWithName:NSInvalidArgumentException reason:@"Invalid direction" userInfo:nil] raise];
-      break;
   }
   return nil;
 }

@@ -1,1345 +1,600 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1CB757C7F2D845B9B5E0F544</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-metazelda.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2CB7C5D1F1754C89A9806ADC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-metazelda.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-metazelda.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>435E19CD0A5F457C8862CE1E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1CB757C7F2D845B9B5E0F544</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>91745050BFFC4F53BB0E8420</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-metazelda-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>BC0706F019630D9A0039E670</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Edge.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0706F119630D9A0039E670</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Edge.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0706F219630D9A0039E670</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0706F119630D9A0039E670</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3E871962EF1800CC381B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC6B3EC21962EF7E00CC381B</string>
-				<string>BC6B3E991962EF1800CC381B</string>
-				<string>BC6B3EB21962EF1800CC381B</string>
-				<string>BC6B3E921962EF1800CC381B</string>
-				<string>BC6B3E911962EF1800CC381B</string>
-				<string>2CB7C5D1F1754C89A9806ADC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3E881962EF1800CC381B</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>DOG</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Delta Dog</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>BC6B3E8F1962EF1800CC381B</key>
-					<dict>
-						<key>DevelopmentTeam</key>
-						<string>REGGDNJ825</string>
-					</dict>
-					<key>BC6B3EAA1962EF1800CC381B</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>BC6B3E8F1962EF1800CC381B</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>BC6B3E8B1962EF1800CC381B</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>BC6B3E871962EF1800CC381B</string>
-			<key>productRefGroup</key>
-			<string>BC6B3E911962EF1800CC381B</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>BC6B3E8F1962EF1800CC381B</string>
-				<string>BC6B3EAA1962EF1800CC381B</string>
-			</array>
-		</dict>
-		<key>BC6B3E8B1962EF1800CC381B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BC6B3EBA1962EF1800CC381B</string>
-				<string>BC6B3EBB1962EF1800CC381B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BC6B3E8C1962EF1800CC381B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BC6B3EA01962EF1800CC381B</string>
-				<string>BC6B3ECB1962F14F00CC381B</string>
-				<string>BCE3EF2F196576470042E9F8</string>
-				<string>BCE3EF32196577370042E9F8</string>
-				<string>BC6B3EC81962F0FC00CC381B</string>
-				<string>BC0706F219630D9A0039E670</string>
-				<string>BC6B3EA41962EF1800CC381B</string>
-				<string>BC6B3EC51962EF9600CC381B</string>
-				<string>BC9CC6E11964482D00736CA5</string>
-				<string>BC6B3ECE1962F69F00CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC6B3E8D1962EF1800CC381B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BC6B3E961962EF1800CC381B</string>
-				<string>BC6B3E981962EF1800CC381B</string>
-				<string>BC6B3E941962EF1800CC381B</string>
-				<string>435E19CD0A5F457C8862CE1E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC6B3E8E1962EF1800CC381B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BC6B3E9E1962EF1800CC381B</string>
-				<string>BC6B3EA61962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC6B3E8F1962EF1800CC381B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BC6B3EBC1962EF1800CC381B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E8DC1646E0AD40889996F2F8</string>
-				<string>BC6B3E8C1962EF1800CC381B</string>
-				<string>BC6B3E8D1962EF1800CC381B</string>
-				<string>BC6B3E8E1962EF1800CC381B</string>
-				<string>91745050BFFC4F53BB0E8420</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>metazelda</string>
-			<key>productName</key>
-			<string>metazelda</string>
-			<key>productReference</key>
-			<string>BC6B3E901962EF1800CC381B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>BC6B3E901962EF1800CC381B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>metazelda.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BC6B3E911962EF1800CC381B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC6B3E901962EF1800CC381B</string>
-				<string>BC6B3EAB1962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3E921962EF1800CC381B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC6B3E931962EF1800CC381B</string>
-				<string>BC6B3E951962EF1800CC381B</string>
-				<string>BC6B3E971962EF1800CC381B</string>
-				<string>BC6B3EAC1962EF1800CC381B</string>
-				<string>1CB757C7F2D845B9B5E0F544</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3E931962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>BC6B3E941962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3E931962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3E951962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>BC6B3E961962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3E951962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3E971962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>BC6B3E981962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3E971962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3E991962EF1800CC381B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC6B3EA21962EF1800CC381B</string>
-				<string>BC6B3EA31962EF1800CC381B</string>
-				<string>BC6B3EA51962EF1800CC381B</string>
-				<string>BC6B3E9A1962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>metazelda</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3E9A1962EF1800CC381B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC6B3E9B1962EF1800CC381B</string>
-				<string>BC6B3E9C1962EF1800CC381B</string>
-				<string>BC6B3E9F1962EF1800CC381B</string>
-				<string>BC6B3EA11962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3E9B1962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>metazelda-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3E9C1962EF1800CC381B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC6B3E9D1962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3E9D1962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3E9E1962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3E9C1962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3E9F1962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EA01962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3E9F1962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3EA11962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>metazelda-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EA21962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DOGAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EA31962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DOGAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EA41962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3EA31962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3EA51962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EA61962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3EA51962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3EA71962EF1800CC381B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BC6B3EB91962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC6B3EA81962EF1800CC381B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BC6B3EAD1962EF1800CC381B</string>
-				<string>BC6B3EAF1962EF1800CC381B</string>
-				<string>BC6B3EAE1962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC6B3EA91962EF1800CC381B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BC6B3EB71962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC6B3EAA1962EF1800CC381B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BC6B3EBF1962EF1800CC381B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BC6B3EA71962EF1800CC381B</string>
-				<string>BC6B3EA81962EF1800CC381B</string>
-				<string>BC6B3EA91962EF1800CC381B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>BC6B3EB11962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>metazeldaTests</string>
-			<key>productName</key>
-			<string>metazeldaTests</string>
-			<key>productReference</key>
-			<string>BC6B3EAB1962EF1800CC381B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>BC6B3EAB1962EF1800CC381B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>metazeldaTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BC6B3EAC1962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>BC6B3EAD1962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3EAC1962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3EAE1962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3E931962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3EAF1962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3E971962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3EB01962EF1800CC381B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>BC6B3E881962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>BC6B3E8F1962EF1800CC381B</string>
-			<key>remoteInfo</key>
-			<string>metazelda</string>
-		</dict>
-		<key>BC6B3EB11962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>BC6B3E8F1962EF1800CC381B</string>
-			<key>targetProxy</key>
-			<string>BC6B3EB01962EF1800CC381B</string>
-		</dict>
-		<key>BC6B3EB21962EF1800CC381B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC6B3EB81962EF1800CC381B</string>
-				<string>BC6B3EB31962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>metazeldaTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EB31962EF1800CC381B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC6B3EB41962EF1800CC381B</string>
-				<string>BC6B3EB51962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EB41962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>metazeldaTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EB51962EF1800CC381B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC6B3EB61962EF1800CC381B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EB61962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EB71962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3EB51962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3EB81962EF1800CC381B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>metazeldaTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EB91962EF1800CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3EB81962EF1800CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3EBA1962EF1800CC381B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BC6B3EBB1962EF1800CC381B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BC6B3EBC1962EF1800CC381B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BC6B3EBD1962EF1800CC381B</string>
-				<string>BC6B3EBE1962EF1800CC381B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BC6B3EBD1962EF1800CC381B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2CB7C5D1F1754C89A9806ADC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>metazelda/metazelda-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>metazelda/metazelda-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BC6B3EBE1962EF1800CC381B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2CB7C5D1F1754C89A9806ADC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>metazelda/metazelda-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>metazelda/metazelda-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BC6B3EBF1962EF1800CC381B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BC6B3EC01962EF1800CC381B</string>
-				<string>BC6B3EC11962EF1800CC381B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BC6B3EC01962EF1800CC381B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/metazelda.app/metazelda</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>metazelda/metazelda-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>metazeldaTests/metazeldaTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BC6B3EC11962EF1800CC381B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/metazelda.app/metazelda</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>metazelda/metazelda-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>metazeldaTests/metazeldaTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BC6B3EC21962EF7E00CC381B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BCE3EF2C196576330042E9F8</string>
-				<string>BC6B3EC31962EF9600CC381B</string>
-				<string>BC6B3EC41962EF9600CC381B</string>
-				<string>BC6B3EC61962F0FC00CC381B</string>
-				<string>BC6B3EC71962F0FC00CC381B</string>
-				<string>BC0706F019630D9A0039E670</string>
-				<string>BC0706F119630D9A0039E670</string>
-				<string>BC6B3ECC1962F69F00CC381B</string>
-				<string>BC6B3ECD1962F69F00CC381B</string>
-				<string>BC6B3EC91962F14F00CC381B</string>
-				<string>BC6B3ECA1962F14F00CC381B</string>
-				<string>BC9CC6DF1964482D00736CA5</string>
-				<string>BC9CC6E01964482D00736CA5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Source</string>
-			<key>path</key>
-			<string>metazelda/Source</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EC31962EF9600CC381B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Bounds.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EC41962EF9600CC381B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Bounds.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EC51962EF9600CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3EC41962EF9600CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3EC61962F0FC00CC381B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Condition.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EC71962F0FC00CC381B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Condition.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3EC81962F0FC00CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3EC71962F0FC00CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3EC91962F14F00CC381B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Symbol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3ECA1962F14F00CC381B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Symbol.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3ECB1962F14F00CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3ECA1962F14F00CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC6B3ECC1962F69F00CC381B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Switch.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3ECD1962F69F00CC381B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Switch.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC6B3ECE1962F69F00CC381B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC6B3ECD1962F69F00CC381B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC9CC6DF1964482D00736CA5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Room.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC9CC6E01964482D00736CA5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Room.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC9CC6E11964482D00736CA5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC9CC6E01964482D00736CA5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BCE3EF2C196576330042E9F8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BCE3EF2D196576470042E9F8</string>
-				<string>BCE3EF2E196576470042E9F8</string>
-				<string>BCE3EF30196577370042E9F8</string>
-				<string>BCE3EF31196577370042E9F8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Utils</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCE3EF2D196576470042E9F8</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Coords.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCE3EF2E196576470042E9F8</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Coords.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCE3EF2F196576470042E9F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BCE3EF2E196576470042E9F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BCE3EF30196577370042E9F8</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Direction.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCE3EF31196577370042E9F8</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Direction.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCE3EF32196577370042E9F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BCE3EF31196577370042E9F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E8DC1646E0AD40889996F2F8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>BC6B3E881962EF1800CC381B</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435E19CD0A5F457C8862CE1E /* libPods-metazelda.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB757C7F2D845B9B5E0F544 /* libPods-metazelda.a */; };
+		BC0706F219630D9A0039E670 /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0706F119630D9A0039E670 /* Edge.m */; };
+		BC6B3E941962EF1800CC381B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B3E931962EF1800CC381B /* Foundation.framework */; };
+		BC6B3E961962EF1800CC381B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B3E951962EF1800CC381B /* CoreGraphics.framework */; };
+		BC6B3E981962EF1800CC381B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B3E971962EF1800CC381B /* UIKit.framework */; };
+		BC6B3E9E1962EF1800CC381B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC6B3E9C1962EF1800CC381B /* InfoPlist.strings */; };
+		BC6B3EA01962EF1800CC381B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3E9F1962EF1800CC381B /* main.m */; };
+		BC6B3EA41962EF1800CC381B /* DOGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3EA31962EF1800CC381B /* DOGAppDelegate.m */; };
+		BC6B3EA61962EF1800CC381B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6B3EA51962EF1800CC381B /* Images.xcassets */; };
+		BC6B3EAD1962EF1800CC381B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B3EAC1962EF1800CC381B /* XCTest.framework */; };
+		BC6B3EAE1962EF1800CC381B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B3E931962EF1800CC381B /* Foundation.framework */; };
+		BC6B3EAF1962EF1800CC381B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B3E971962EF1800CC381B /* UIKit.framework */; };
+		BC6B3EB71962EF1800CC381B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC6B3EB51962EF1800CC381B /* InfoPlist.strings */; };
+		BC6B3EB91962EF1800CC381B /* metazeldaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3EB81962EF1800CC381B /* metazeldaTests.m */; };
+		BC6B3EC51962EF9600CC381B /* Bounds.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3EC41962EF9600CC381B /* Bounds.m */; };
+		BC6B3EC81962F0FC00CC381B /* Condition.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3EC71962F0FC00CC381B /* Condition.m */; };
+		BC6B3ECB1962F14F00CC381B /* Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3ECA1962F14F00CC381B /* Symbol.m */; };
+		BC6B3ECE1962F69F00CC381B /* Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3ECD1962F69F00CC381B /* Switch.m */; };
+		BC9CC6E11964482D00736CA5 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CC6E01964482D00736CA5 /* Room.m */; };
+		BCE3EF2F196576470042E9F8 /* Coords.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE3EF2E196576470042E9F8 /* Coords.m */; };
+		BCE3EF32196577370042E9F8 /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE3EF31196577370042E9F8 /* Direction.m */; };
+		BCF2F3CA1966B32500B147AB /* AStar.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF2F3C91966B32500B147AB /* AStar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC6B3EB01962EF1800CC381B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC6B3E881962EF1800CC381B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6B3E8F1962EF1800CC381B;
+			remoteInfo = metazelda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CB757C7F2D845B9B5E0F544 /* libPods-metazelda.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-metazelda.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB7C5D1F1754C89A9806ADC /* Pods-metazelda.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metazelda.xcconfig"; path = "Pods/Pods-metazelda.xcconfig"; sourceTree = "<group>"; };
+		BC0706F019630D9A0039E670 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		BC0706F119630D9A0039E670 /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
+		BC5814B0196AED6A00AE3325 /* IMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMap.h; sourceTree = "<group>"; };
+		BC5814B1196AED7400AE3325 /* IRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRoom.h; sourceTree = "<group>"; };
+		BC6B3E901962EF1800CC381B /* metazelda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metazelda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6B3E931962EF1800CC381B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC6B3E951962EF1800CC381B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC6B3E971962EF1800CC381B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC6B3E9B1962EF1800CC381B /* metazelda-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "metazelda-Info.plist"; sourceTree = "<group>"; };
+		BC6B3E9D1962EF1800CC381B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC6B3E9F1962EF1800CC381B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC6B3EA11962EF1800CC381B /* metazelda-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "metazelda-Prefix.pch"; sourceTree = "<group>"; };
+		BC6B3EA21962EF1800CC381B /* DOGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOGAppDelegate.h; sourceTree = "<group>"; };
+		BC6B3EA31962EF1800CC381B /* DOGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOGAppDelegate.m; sourceTree = "<group>"; };
+		BC6B3EA51962EF1800CC381B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC6B3EAB1962EF1800CC381B /* metazeldaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metazeldaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6B3EAC1962EF1800CC381B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC6B3EB41962EF1800CC381B /* metazeldaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "metazeldaTests-Info.plist"; sourceTree = "<group>"; };
+		BC6B3EB61962EF1800CC381B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC6B3EB81962EF1800CC381B /* metazeldaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = metazeldaTests.m; sourceTree = "<group>"; };
+		BC6B3EC31962EF9600CC381B /* Bounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bounds.h; sourceTree = "<group>"; };
+		BC6B3EC41962EF9600CC381B /* Bounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bounds.m; sourceTree = "<group>"; };
+		BC6B3EC61962F0FC00CC381B /* Condition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Condition.h; sourceTree = "<group>"; };
+		BC6B3EC71962F0FC00CC381B /* Condition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Condition.m; sourceTree = "<group>"; };
+		BC6B3EC91962F14F00CC381B /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		BC6B3ECA1962F14F00CC381B /* Symbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Symbol.m; sourceTree = "<group>"; };
+		BC6B3ECC1962F69F00CC381B /* Switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switch.h; sourceTree = "<group>"; };
+		BC6B3ECD1962F69F00CC381B /* Switch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Switch.m; sourceTree = "<group>"; };
+		BC9CC6DF1964482D00736CA5 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		BC9CC6E01964482D00736CA5 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		BCE3EF2D196576470042E9F8 /* Coords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coords.h; sourceTree = "<group>"; };
+		BCE3EF2E196576470042E9F8 /* Coords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coords.m; sourceTree = "<group>"; };
+		BCE3EF30196577370042E9F8 /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		BCE3EF31196577370042E9F8 /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direction.m; sourceTree = "<group>"; };
+		BCF2F3C81966B32500B147AB /* AStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AStar.h; sourceTree = "<group>"; };
+		BCF2F3C91966B32500B147AB /* AStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AStar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC6B3E8D1962EF1800CC381B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6B3E961962EF1800CC381B /* CoreGraphics.framework in Frameworks */,
+				BC6B3E981962EF1800CC381B /* UIKit.framework in Frameworks */,
+				BC6B3E941962EF1800CC381B /* Foundation.framework in Frameworks */,
+				435E19CD0A5F457C8862CE1E /* libPods-metazelda.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6B3EA81962EF1800CC381B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6B3EAD1962EF1800CC381B /* XCTest.framework in Frameworks */,
+				BC6B3EAF1962EF1800CC381B /* UIKit.framework in Frameworks */,
+				BC6B3EAE1962EF1800CC381B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC6B3E871962EF1800CC381B = {
+			isa = PBXGroup;
+			children = (
+				BC6B3EC21962EF7E00CC381B /* Source */,
+				BC6B3E991962EF1800CC381B /* metazelda */,
+				BC6B3EB21962EF1800CC381B /* metazeldaTests */,
+				BC6B3E921962EF1800CC381B /* Frameworks */,
+				BC6B3E911962EF1800CC381B /* Products */,
+				2CB7C5D1F1754C89A9806ADC /* Pods-metazelda.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		BC6B3E911962EF1800CC381B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B3E901962EF1800CC381B /* metazelda.app */,
+				BC6B3EAB1962EF1800CC381B /* metazeldaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC6B3E921962EF1800CC381B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B3E931962EF1800CC381B /* Foundation.framework */,
+				BC6B3E951962EF1800CC381B /* CoreGraphics.framework */,
+				BC6B3E971962EF1800CC381B /* UIKit.framework */,
+				BC6B3EAC1962EF1800CC381B /* XCTest.framework */,
+				1CB757C7F2D845B9B5E0F544 /* libPods-metazelda.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6B3E991962EF1800CC381B /* metazelda */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B3EA21962EF1800CC381B /* DOGAppDelegate.h */,
+				BC6B3EA31962EF1800CC381B /* DOGAppDelegate.m */,
+				BC6B3EA51962EF1800CC381B /* Images.xcassets */,
+				BC6B3E9A1962EF1800CC381B /* Supporting Files */,
+			);
+			path = metazelda;
+			sourceTree = "<group>";
+		};
+		BC6B3E9A1962EF1800CC381B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B3E9B1962EF1800CC381B /* metazelda-Info.plist */,
+				BC6B3E9C1962EF1800CC381B /* InfoPlist.strings */,
+				BC6B3E9F1962EF1800CC381B /* main.m */,
+				BC6B3EA11962EF1800CC381B /* metazelda-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC6B3EB21962EF1800CC381B /* metazeldaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B3EB81962EF1800CC381B /* metazeldaTests.m */,
+				BC6B3EB31962EF1800CC381B /* Supporting Files */,
+			);
+			path = metazeldaTests;
+			sourceTree = "<group>";
+		};
+		BC6B3EB31962EF1800CC381B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B3EB41962EF1800CC381B /* metazeldaTests-Info.plist */,
+				BC6B3EB51962EF1800CC381B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC6B3EC21962EF7E00CC381B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BCE3EF2C196576330042E9F8 /* Utils */,
+				BC6B3EC31962EF9600CC381B /* Bounds.h */,
+				BC6B3EC41962EF9600CC381B /* Bounds.m */,
+				BC6B3EC61962F0FC00CC381B /* Condition.h */,
+				BC6B3EC71962F0FC00CC381B /* Condition.m */,
+				BC0706F019630D9A0039E670 /* Edge.h */,
+				BC0706F119630D9A0039E670 /* Edge.m */,
+				BC6B3ECC1962F69F00CC381B /* Switch.h */,
+				BC6B3ECD1962F69F00CC381B /* Switch.m */,
+				BC6B3EC91962F14F00CC381B /* Symbol.h */,
+				BC6B3ECA1962F14F00CC381B /* Symbol.m */,
+				BC9CC6DF1964482D00736CA5 /* Room.h */,
+				BC9CC6E01964482D00736CA5 /* Room.m */,
+			);
+			name = Source;
+			path = metazelda/Source;
+			sourceTree = "<group>";
+		};
+		BCE3EF2C196576330042E9F8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BCE3EF2D196576470042E9F8 /* Coords.h */,
+				BCE3EF2E196576470042E9F8 /* Coords.m */,
+				BCE3EF30196577370042E9F8 /* Direction.h */,
+				BCE3EF31196577370042E9F8 /* Direction.m */,
+				BCF2F3C81966B32500B147AB /* AStar.h */,
+				BCF2F3C91966B32500B147AB /* AStar.m */,
+				BC5814B0196AED6A00AE3325 /* IMap.h */,
+				BC5814B1196AED7400AE3325 /* IRoom.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC6B3E8F1962EF1800CC381B /* metazelda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6B3EBC1962EF1800CC381B /* Build configuration list for PBXNativeTarget "metazelda" */;
+			buildPhases = (
+				E8DC1646E0AD40889996F2F8 /* Check Pods Manifest.lock */,
+				BC6B3E8C1962EF1800CC381B /* Sources */,
+				BC6B3E8D1962EF1800CC381B /* Frameworks */,
+				BC6B3E8E1962EF1800CC381B /* Resources */,
+				91745050BFFC4F53BB0E8420 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metazelda;
+			productName = metazelda;
+			productReference = BC6B3E901962EF1800CC381B /* metazelda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC6B3EAA1962EF1800CC381B /* metazeldaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6B3EBF1962EF1800CC381B /* Build configuration list for PBXNativeTarget "metazeldaTests" */;
+			buildPhases = (
+				BC6B3EA71962EF1800CC381B /* Sources */,
+				BC6B3EA81962EF1800CC381B /* Frameworks */,
+				BC6B3EA91962EF1800CC381B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC6B3EB11962EF1800CC381B /* PBXTargetDependency */,
+			);
+			name = metazeldaTests;
+			productName = metazeldaTests;
+			productReference = BC6B3EAB1962EF1800CC381B /* metazeldaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC6B3E881962EF1800CC381B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DOG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Delta Dog";
+				TargetAttributes = {
+					BC6B3E8F1962EF1800CC381B = {
+						DevelopmentTeam = REGGDNJ825;
+					};
+					BC6B3EAA1962EF1800CC381B = {
+						TestTargetID = BC6B3E8F1962EF1800CC381B;
+					};
+				};
+			};
+			buildConfigurationList = BC6B3E8B1962EF1800CC381B /* Build configuration list for PBXProject "metazelda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC6B3E871962EF1800CC381B;
+			productRefGroup = BC6B3E911962EF1800CC381B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC6B3E8F1962EF1800CC381B /* metazelda */,
+				BC6B3EAA1962EF1800CC381B /* metazeldaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC6B3E8E1962EF1800CC381B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6B3E9E1962EF1800CC381B /* InfoPlist.strings in Resources */,
+				BC6B3EA61962EF1800CC381B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6B3EA91962EF1800CC381B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6B3EB71962EF1800CC381B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91745050BFFC4F53BB0E8420 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-metazelda-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8DC1646E0AD40889996F2F8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC6B3E8C1962EF1800CC381B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6B3EA01962EF1800CC381B /* main.m in Sources */,
+				BC6B3ECB1962F14F00CC381B /* Symbol.m in Sources */,
+				BCE3EF2F196576470042E9F8 /* Coords.m in Sources */,
+				BCF2F3CA1966B32500B147AB /* AStar.m in Sources */,
+				BCE3EF32196577370042E9F8 /* Direction.m in Sources */,
+				BC6B3EC81962F0FC00CC381B /* Condition.m in Sources */,
+				BC0706F219630D9A0039E670 /* Edge.m in Sources */,
+				BC6B3EA41962EF1800CC381B /* DOGAppDelegate.m in Sources */,
+				BC6B3EC51962EF9600CC381B /* Bounds.m in Sources */,
+				BC9CC6E11964482D00736CA5 /* Room.m in Sources */,
+				BC6B3ECE1962F69F00CC381B /* Switch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6B3EA71962EF1800CC381B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6B3EB91962EF1800CC381B /* metazeldaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC6B3EB11962EF1800CC381B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC6B3E8F1962EF1800CC381B /* metazelda */;
+			targetProxy = BC6B3EB01962EF1800CC381B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC6B3E9C1962EF1800CC381B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6B3E9D1962EF1800CC381B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC6B3EB51962EF1800CC381B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6B3EB61962EF1800CC381B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC6B3EBA1962EF1800CC381B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC6B3EBB1962EF1800CC381B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC6B3EBD1962EF1800CC381B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB7C5D1F1754C89A9806ADC /* Pods-metazelda.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "metazelda/metazelda-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "metazelda/metazelda-Info.plist";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/BinarySearchTree\"",
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC6B3EBE1962EF1800CC381B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB7C5D1F1754C89A9806ADC /* Pods-metazelda.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "metazelda/metazelda-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "metazelda/metazelda-Info.plist";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/BinarySearchTree\"",
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC6B3EC01962EF1800CC381B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/metazelda.app/metazelda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "metazelda/metazelda-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "metazeldaTests/metazeldaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC6B3EC11962EF1800CC381B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/metazelda.app/metazelda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "metazelda/metazelda-Prefix.pch";
+				INFOPLIST_FILE = "metazeldaTests/metazeldaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC6B3E8B1962EF1800CC381B /* Build configuration list for PBXProject "metazelda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6B3EBA1962EF1800CC381B /* Debug */,
+				BC6B3EBB1962EF1800CC381B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6B3EBC1962EF1800CC381B /* Build configuration list for PBXNativeTarget "metazelda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6B3EBD1962EF1800CC381B /* Debug */,
+				BC6B3EBE1962EF1800CC381B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6B3EBF1962EF1800CC381B /* Build configuration list for PBXNativeTarget "metazeldaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6B3EC01962EF1800CC381B /* Debug */,
+				BC6B3EC11962EF1800CC381B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC6B3E881962EF1800CC381B /* Project object */;
+}

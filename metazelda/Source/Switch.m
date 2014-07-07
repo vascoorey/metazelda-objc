@@ -24,7 +24,7 @@
     case SwitchStateOn:
       self.state = SwitchStateOff;
       break;
-    default:
+    case SwitchStateEither:
       break;
   }
   return self.state;

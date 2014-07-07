@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Delta Dog. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @class Direction;
 
-@interface Coords : NSObject
+@interface Coords : NSObject <NSCopying>
 
 @property (nonatomic, readonly) int x;
 @property (nonatomic, readonly) int y;
